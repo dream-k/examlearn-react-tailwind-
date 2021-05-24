@@ -1,0 +1,21 @@
+.quiz-item {
+    #Path_31 {
+        stroke: #99A2AD;
+    }
+
+    .success {
+        #Path_31 {
+            stroke: #86bd39;
+        }
+    }
+}
+
+.exit-practice-icon {
+    #Path_2330, #Path_2331 {
+        stroke: #3d8bf2;
+    }
+}
+
+.quiz-finish-wrapper {
+    min-height: calc(100vh - 64px);
+}

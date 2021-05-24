@@ -1,0 +1,16 @@
+.w-85px {
+    width: 85px;
+    flex: 0 0 85px;
+}
+
+.arrow-down {
+    position: absolute;
+    bottom: -11px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 0; 
+    height: 0; 
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent;
+    border-top: 11px solid #3D8BF2;
+}

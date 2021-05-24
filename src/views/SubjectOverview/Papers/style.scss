@@ -1,0 +1,17 @@
+.paper-item {
+    cursor: pointer;
+    
+    #Path_31 {
+        stroke: #265899;
+    }
+
+    &:hover {
+        #Group_141 {
+            opacity: 1;
+        }
+        #Group_141 > * {
+            stroke: #3d8bf2;
+            opacity: 1;
+        }
+    }
+}

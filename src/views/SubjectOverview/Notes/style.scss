@@ -1,0 +1,36 @@
+.lesson-item {
+    #Path_31 {
+        stroke: #99A2AD;
+    }
+    &:hover {
+        #Path_31 {
+            stroke: #3d8bf2;
+        }
+    }
+}
+
+.prev-button, .next-button {
+    border-radius: 3px;
+    color: #4C5C6F;
+    border-color: #4C5C6F;
+    #Path_31 {
+        stroke: #4C5C6F;
+    }
+
+    &:disabled {
+        color: #99A2AD;
+        border-color: #99A2AD;
+        #Path_31 {
+            stroke: #99A2AD;
+        }
+    }
+}
+
+.text-white {
+    #Path_126, #Path_127, #Rectangle_107 {
+        stroke: white
+    }
+    #Path_112, #Path_113, #Line_9 {
+        stroke: white
+    }
+}

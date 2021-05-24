@@ -1,0 +1,29 @@
+.collapse-component.collapse .collapse-icon {
+    transform: rotate(-180deg);
+    transition: transform .5s ease-in-out;
+}
+
+.collapse-component.collapse .collapse-icon #Path_3682 {
+    stroke: #3d8bf2;
+}
+
+.collapse-component.collapse .collapse-icon #Ellipse_238 {
+    stroke: #3d8bf2;
+}
+
+.collapse-component.expand .collapse-icon {
+    transition: transform .5s ease-in-out;
+}
+
+.collapse-component .content {
+    overflow: hidden;
+}
+.collapse-component.collapse .content {
+    max-height: 500px;
+    transition: max-height .5s ease-in-out;
+}
+
+.collapse-component.expand .content {
+    max-height: 0px;
+    transition: max-height .5s ease-in-out;
+}

@@ -1,0 +1,26 @@
+.slick-arrow {
+    top: calc(50% - 24px);
+}
+.slick-track
+{
+    display: flex !important;
+}
+.slick-slide
+{
+    height: inherit !important;
+}
+.container {
+    max-width: 1200px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.slope-div {
+    height: 146px;
+    width: 100%;
+    transform: rotate( 
+        -0.7deg
+        ) skew( 
+        -0.7deg
+        );
+    bottom: 12px;
+}
